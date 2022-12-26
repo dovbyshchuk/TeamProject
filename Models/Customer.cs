@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNet.Identity.EntityFramework;
 
-namespace Data;
+namespace Models;
 
 public class Customer : IdentityUser
 {
