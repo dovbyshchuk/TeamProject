@@ -1,4 +1,4 @@
-namespace Data;
+namespace Models;
 
 public class PaymentConfig //її треба передавати в метод оплати (як конфігурацію)
 {

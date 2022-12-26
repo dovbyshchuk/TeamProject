@@ -7,9 +7,9 @@ namespace Application.Queries.Product.GetProductById;
 
 public class GetProductByIdCommandHandler : IRequestHandler<GetProductByIdQuery, ProductModel>
 {
-    private readonly IRepository<Data.Product> _repository;
+    private readonly IRepository<global::Models.Product> _repository;
     private readonly IMapper _mapper;
-    public GetProductByIdCommandHandler(IRepository<Data.Product> repository, IMapper mapper)
+    public GetProductByIdCommandHandler(IRepository<global::Models.Product> repository, IMapper mapper)
     {
         _repository = repository;
         _mapper = mapper;
