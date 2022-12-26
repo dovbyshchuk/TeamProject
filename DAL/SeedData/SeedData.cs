@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace Persistence.SeedData;
+namespace DAL.SeedData;
 
 public static class SeedData
 {

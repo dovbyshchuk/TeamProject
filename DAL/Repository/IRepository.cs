@@ -1,4 +1,4 @@
-namespace Persistence.Repository;
+namespace DAL.Repository;
 
 public interface IRepository<TEntity>
 {
